@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TibiaApp"
+             x:Class="TibiaApp.MainPage"
+             BackgroundColor="#FAAC58">
+
+    <StackLayout Padding="20" Spacing="20" >
+        <Entry x:Name="entryName" Placeholder="Character name" FontAttributes="Bold" FontSize="Large" TextColor="#5A2800"/>
+        <Button x:Name="btnPesquisar" Text="Pesquisar" TextColor="White" BackgroundColor="#505050"/>
+        <StackLayout Orientation="Vertical">
+            <Label x:Name="lbllevel" Text="Level:" FontAttributes="Bold" FontSize="Large" TextColor="#5A2800" />
+            <Label x:Name="valorLvl" FontSize="Medium" TextColor="#5A2800" />
+            
+            <Label x:Name="lblSex" Text="Sexo:" FontAttributes="Bold" FontSize="Large" TextColor="#5A2800"/>
+            <Label x:Name="valorSex" FontSize="Medium" TextColor="#5A2800" />
+            
+            <Label x:Name="lblvocation" Text="Vocação:" FontAttributes="Bold" FontSize="Large" TextColor="#5A2800"/>
+            <Label x:Name="valorVocation" FontSize="Medium" TextColor="#5A2800" />
+            
+            <Label x:Name="lblachievement" Text="Achievement:" FontAttributes="Bold" FontSize="Large" TextColor="#5A2800"/>
+            <Label x:Name="valorAchievement" FontSize="Medium" TextColor="#5A2800" />
+            
+            <Label x:Name="lblworld" Text="Mundo:" FontAttributes="Bold" FontSize="Large" TextColor="#5A2800"/>
+            <Label x:Name="valorWorld" FontSize="Medium" TextColor="#5A2800" />
+
+            <Label x:Name="lblresidence" Text="Residência:" FontAttributes="Bold" FontSize="Large" TextColor="#5A2800"/>
+            <Label x:Name="valorResidence" FontSize="Medium" TextColor="#5A2800" />
+
+            <Label x:Name="lblLastLogin" Text="Ultimo Login:" FontAttributes="Bold" FontSize="Large" TextColor="#5A2800"/>
+            <Label x:Name="valorLogin" FontSize="Medium" TextColor="#5A2800" />
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
